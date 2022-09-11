@@ -8,8 +8,19 @@ body{
     overflow-x: hidden;
     
 }
+header{
+    height: 70px;
+    width: 100vw;
+    background-color:rgb(38, 125, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: cursive;
+    font-size: 30px;
+}
 main{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 120px);
     min-height: 480px;
     width: 100vw;
     
@@ -22,7 +33,7 @@ main{
     margin: auto;
     left: 0;
     right: 0;
-    top: 40px;
+    top: 110px;
     margin-bottom: 40px;
     box-shadow: rgba(99, 99, 99, 0.562) 0px 2px 8px 0px;
     border-radius: 7px;
@@ -76,7 +87,7 @@ input[type=button]:hover{
     
 }
 p{
-    margin-top: 20px;
+    margin: 20px;
     text-align: center;
     font-weight: bold;
 }
