@@ -11,7 +11,7 @@ body{
 header{
     height: 70px;
     width: 100vw;
-    background-color:rgb(38, 125, 255);
+    background-color:#267dff;
     color: white;
     display: flex;
     align-items: center;

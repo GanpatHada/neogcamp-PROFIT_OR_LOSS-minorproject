@@ -13,14 +13,21 @@ const calculateResult=(ip,q,cp)=>{
          output.style.color="red";
          return 0;
     }
+    if(ip<0||q<0||cp<0)
+    {   
+         output.innerText="Enter valid numbers";
+         output.style.color="red";
+         return 0;
+    }
+
     if(ip<cp)
         profit(((cp-ip)*q),ip);
     if(ip>cp)
         loss(((ip-cp)*q),ip);
     if(ip===cp)
         {
-            output.innerText="No pain no gain,No gain no pain";
-            output.style.color="blue";
+            output.innerText="No pain no gain , No gain no pain";
+            output.style.color="#267dff";
         }
 
 }
