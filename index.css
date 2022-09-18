@@ -86,7 +86,7 @@ input[type=button]:hover{
     background-color: rgb(24, 80, 163);
     
 }
-p{
+#form p{
     margin: 20px;
     text-align: center;
     font-weight: bold;
@@ -97,10 +97,17 @@ footer {
     background-image: linear-gradient(to left, var(--primary),var(--secondary), var(--primary));
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-top: 1px solid rgba(192, 191, 191, 0.534);
-    height: 50px;
+    padding: 20px;
+}
+i{
+    color: rgb(38, 125, 255);
+    background-color: white;
+    font-size: 24px;
+    margin: 10px 7px;
 }
 @media (max-width:562px){
     #box{
