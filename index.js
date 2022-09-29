@@ -15,7 +15,7 @@ const calculateResult=(ip,q,cp)=>{
     }
     if(ip<0||q<0||cp<0)
     {   
-         output.innerText="Enter valid numbers";
+         output.innerText="fields can't be negative";
          output.style.color="red";
          return 0;
     }
