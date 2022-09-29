@@ -9,7 +9,7 @@ const output=document.querySelector("#output");
 const calculateResult=(ip,q,cp)=>{
     if(ip===0||q===0||cp===0)
     {   
-         output.innerText="Please fil all fields";
+         output.innerText="Please fill all fields";
          output.style.color="red";
          return 0;
     }
