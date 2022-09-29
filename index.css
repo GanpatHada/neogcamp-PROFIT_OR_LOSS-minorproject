@@ -91,6 +91,10 @@ input[type=button]:hover{
     text-align: center;
     font-weight: bold;
 }
+#output{
+    text-align: center;
+    margin: 10px;
+}
 footer {
     width: 100%;
     color: rgb(38, 125, 255);
